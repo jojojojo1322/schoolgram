@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/miz123-3a45e4/schoolgram/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
