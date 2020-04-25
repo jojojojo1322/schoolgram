@@ -21,6 +21,7 @@ export default {
           },
         ],
       };
+      //좋아요 기능 create/delete
       try {
         const existingLike = await prisma.$exists.like(filterOptions);
         if (existingLike) {
