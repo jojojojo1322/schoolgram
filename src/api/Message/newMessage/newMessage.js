@@ -1,5 +1,7 @@
 import { prisma } from "../../../../generated/prisma-client";
 
+//실시간 메세지 알림
+
 export default {
   Subscription: {
     newMessage: {
